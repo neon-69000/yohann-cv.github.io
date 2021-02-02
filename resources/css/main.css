@@ -1,0 +1,382 @@
+/*! HTML5 Boilerplate v8.0.0 | MIT License | https://html5boilerplate.com/ */
+
+/* main.css 2.1.0 | MIT License | https://github.com/h5bp/main.css#readme */
+/*
+
+/* ==========================================================================
+   Basic setup
+   ========================================================================== */
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  background-color: #161616;
+  color: #cccccc;
+  font-family: 'Lato', 'Arial', sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+  text-rendering: optimizeLegibility;
+}
+
+
+
+/* ==========================================================================
+   Headers - Top of home page
+   ========================================================================== */
+
+header{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/bg2.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+
+.hero-text-box{
+  position: absolute;
+  width: 1140px;
+  top: 40%;
+  left: 10%;
+}
+
+
+
+
+/* ==========================================================================
+   Reusable components
+   ========================================================================== */
+
+.row {
+  /*max-width: 1500px;*/
+  margin: 0 5% 0;
+  text-align: center;
+}
+
+section {
+  padding: 50px 0;
+}
+
+/* ==========================================================================
+   Heading
+   ========================================================================== */
+
+/* ------------------------------ Top Bar infos ----------------------------- */
+
+.logo{
+  position: absolute;
+  left: 5%;
+  margin-top: 20px;
+  height: 50px;
+  width: auto;
+  float: left;
+}
+
+.main-nav{
+  float: right;
+  list-style: none;
+  position: absolute;
+  right: 5%;
+}
+
+.main-nav li {
+  display: inline-block;
+  margin-top: 27px;
+  margin-left: 40px;
+}
+
+.main-nav li a:link,
+.main-nav li a:visited{
+  color: #cccccc;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 90%;
+  transition: border-bottom 0.2s;
+  padding-bottom: 5px;
+}
+
+.main-nav li a:hover,
+.main-nav li a:active{
+  border-bottom: 3px solid #cf6d17;
+}
+
+
+.sticky {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgba(11, 11, 11, 0.8);
+}
+
+
+/* ------------------------------ Main Title -------------------------------- */
+h1{
+  margin: 0;
+  color: aliceblue;
+  font-size: 350%;
+  font-weight: 300;
+}
+
+.test-2title {
+  margin-top: 0;
+  margin-bottom: 20px;
+  color: lightgray;
+  font-size: 250%;
+  font-weight: 300;
+}
+
+
+/* --------------------- Buttons under the Main Title ---------------------- */
+
+.btn:link,
+.btn:visited {
+  display: inline-block;
+  padding: 10px 30px;
+  font-weight: 300;
+  text-decoration: none;
+  border-radius: 200px;
+  color: #cccccc;
+  transition: background-color 0.3s, border 0.3s, color 0.3s;
+}
+
+.btn-gradient:link,
+.btn-gradient:visited {
+  background-color: #cf6d17;
+  border: 1px solid #cf6d17;
+  margin-right: 7px;
+}
+.btn-ghost:link,
+.btn-ghost:visited {
+  border: 1px solid #cf6d17;
+  color: #cf6d17;
+}
+
+.btn:hover,
+.btn:active {
+  background-color: #b05d14;
+  border: 1px solid #b05d14;
+}
+
+.btn-ghost:hover,
+.btn-ghost:active {
+  color: #cccccc;
+}
+
+/* -----------------------------------------------------------------------*/
+/* -------------------- AboutMe &  section-features ------ -------------- */
+/* -----------------------------------------------------------------------*/
+
+
+
+h3{   /* About Me Title*/
+  margin-top: 0;
+  margin-bottom: 20px;
+  text-align: center;
+  color: lightgray;
+  font-size: 250%;
+  font-weight: 300;
+}
+
+h3:after{
+  display: block;
+  height: 2px;
+  background-color: #cf6d17;
+  content: " ";
+  width: 100px;
+  margin: 20px auto 0;
+}
+
+
+.long-copy{   /* Subtitle under About me*/
+  line-height: 130%;
+  font-size: 110%;
+  width: 84%;
+  margin-left: 8%;
+}
+
+/* --------------- About Me Boxes -----------------*/
+.span-1-of-3{   /* 3 About me boxes */
+  margin-bottom: 40px;
+  text-align: left;
+}
+
+h4 {    /* About Me Boxes Title*/
+  font-size: 120%;
+  margin-bottom: 10px;
+}
+
+.box{    /* About Me Boxes*/
+  padding: 1%;
+}
+
+.box p{
+  line-height: 130%;
+}
+
+.icon-boxes{
+  font-size: 200%;
+  display: block;
+  color: #cf6d17;
+  margin-bottom: 7px;
+}
+
+/* -----------------------------------------------------------------------*/
+/* ---------------------------- Pictures Section -------------------------*/
+/* -----------------------------------------------------------------------*/
+.section-pic{
+  padding: 0;
+  margin-bottom: 30px;
+}
+.photo-show{
+  list-style: none;
+  width: 100%;
+}
+
+.photo-show li{
+  display: block;
+  float: left;
+  width: 25% ;
+}
+
+.photo-display{
+  width: 100%;
+  margin: 0;
+  overflow: hidden;
+  background-color: black;
+}
+.photo-display img{
+  opacity: 0.7;
+  width: 100%;
+  height: auto;
+  transform: scale(1);
+  transition: transform 0.5s, opacity 0.5s;
+}
+.photo-display img:hover{
+  opacity: 1;
+  transform: scale(1.15);
+}
+
+
+
+/* -----------------------------------------------------------------------*/
+/* --------------------------------- Resume ------------------------------*/
+/* -----------------------------------------------------------------------*/
+
+
+
+
+
+/* -----------------------------------------------------------------------*/
+/* --------------------------------- Skills ------------------------------*/
+/* -----------------------------------------------------------------------*/
+
+.section-skills {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("img/bg3.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+
+
+
+
+
+
+/* -----------------------------------------------------------------------*/
+/* --------------------------------- Footer ------------------------------*/
+/* -----------------------------------------------------------------------*/
+footer{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("img/footer.jpg");
+  background-size: cover;
+  background-position: bottom;
+  padding: 30px;
+}
+
+.social-list{
+  list-style: none;
+  float: right;
+}
+
+
+.footer-nav li,
+.social-list li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+
+.social-list li:last-child {
+  margin-right: 0;
+}
+.footer-nav li:last-child{
+  margin-left: 0;
+}
+
+.footer-nav li a:link,
+.footer-nav li a:visited,
+.social-list li a:link,
+.social-list li a:visited{
+  text-decoration: none;
+  border: none;
+  color: #7A7A7A;
+  transition: color 0.2s;
+
+}
+
+footer p{
+  color: #515151;
+  margin-top: 30px;
+  margin-bottom: 0;
+}
+
+
+.footer-nav li a:hover,
+.footer-nav li a:active,
+.social-list li a:hover,
+.social-list li a:active{
+  color: #B7B7B7;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ==========================================================================
+   Scroll Bar
+   ========================================================================== */
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 0 grey;
+  border-radius: 50px;
+}
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #a15512;
+  border-radius: 10px;
+}
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #cf6d17;
+}

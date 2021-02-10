@@ -7,64 +7,17 @@
    Basic setup
    ========================================================================== */
 
-
-*{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-html {
-  background-color: #161616;
-  color: #cccccc;
-  font-family: 'Lato', 'Arial', sans-serif;
-  font-weight: 300;
-  font-size: 18px;
-  text-rendering: optimizeLegibility;
-}
-
-
-
-/* ==========================================================================
-   Headers - Top of home page
-   ========================================================================== */
-
-header{
-  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/bg2.jpg);
-  background-size: cover;
-  background-position: center;
-  height: 100vh;
-}
-
-.hero-text-box{
-  position: absolute;
-  width: 1140px;
-  top: 40%;
-  left: 10%;
-}
-
-
-
-
-/* ==========================================================================
-   Reusable components
-   ========================================================================== */
-
-.row {
-  /*max-width: 1500px;*/
-  margin: 0 5% 0;
-  text-align: center;
-}
-
-section {
-  padding: 50px 0;
-}
-
-/* ==========================================================================
-   Heading
-   ========================================================================== */
-
 /* ------------------------------ Top Bar infos ----------------------------- */
+
+
+.navigation {
+  background: rgba(11, 11, 11, 0.9);
+  position: fixed;
+  top: 0;
+  left: -4%;
+  width: 100%;
+}
+
 
 .logo{
   position: absolute;
@@ -104,14 +57,62 @@ section {
 }
 
 
-.sticky {
-  background-color: rgba(11, 11, 11, 0.9);
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  z-index: 9999;
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
+
+html {
+  background-color: #161616;
+  color: #cccccc;
+  font-family: 'Lato', 'Arial', sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+  text-rendering: optimizeLegibility;
+}
+
+
+
+/* ==========================================================================
+   Headers - Top of home page
+   ========================================================================== */
+
+header{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(https://i.imgur.com/K8XQoRV.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+
+.hero-text-box{
+  position: absolute;
+  width: 1140px;
+  top: 40%;
+  left: 10%;
+}
+
+
+
+
+/* ==========================================================================
+   Reusable components
+   ========================================================================== */
+
+.row {
+  /*max-width: 1500px;*/
+  margin: 0 5% 0;
+  text-align: center;
+}
+
+section {
+  padding: 50px 0;
+}
+
+/* ==========================================================================
+   Heading
+   ========================================================================== */
+
 
 
 /* ------------------------------ Main Title -------------------------------- */
@@ -224,7 +225,9 @@ h4 {    /* About Me Boxes Title*/
   color: #cf6d17;
   margin-bottom: 7px;
 }
-
+.section-features i {
+  margin-top: 50px;
+}
 /* -----------------------------------------------------------------------*/
 /* ---------------------------- Pictures Section -------------------------*/
 /* -----------------------------------------------------------------------*/
@@ -276,7 +279,7 @@ h4 {    /* About Me Boxes Title*/
 /* -----------------------------------------------------------------------*/
 
 .section-skills {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("img/bg3.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(https://i.imgur.com/D5v5DRz.jpg);
   background-size: cover;
   background-attachment: fixed;
 }
@@ -291,7 +294,7 @@ h4 {    /* About Me Boxes Title*/
 /* --------------------------------- Footer ------------------------------*/
 /* -----------------------------------------------------------------------*/
 footer{
-  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("img/footer.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(https://i.imgur.com/hbC1RAM.jpg);
   background-size: cover;
   background-position: bottom;
   padding: 30px;

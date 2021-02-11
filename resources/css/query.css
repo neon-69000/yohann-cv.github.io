@@ -10,8 +10,10 @@
 }
 
 /* Small Phones to tablets: 0 to 767px*/
-@media only screen and (max-width: 767px) {
-
+@media only screen and (max-width: 400px) {
+  .photo-show li{
+    width: 50% ;
+  }
 }
 
 /* Small Phones to tablets: 0 to 767px*/
@@ -25,9 +27,18 @@
 .section-features i {
   margin-top: 0;
 }
+.social-list{
+  padding-top: 10px;
+  padding-right: 44%;
+  }
+
+
 }
 
 /* Small Phones from 0 to 480px*/
-@media only screen and (max-width: 480px) {
-
+@media only screen and (max-width: 340px) {
+  .btn:link,
+  .btn:visited {
+    margin-top: 10px;
+  }
 }

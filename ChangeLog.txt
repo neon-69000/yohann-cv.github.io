@@ -1,4 +1,9 @@
- ^ ^
-(O,O)
-(   ) Yohann CV
--"-"---------------
+   ^ ^                               ^ ^
+  (O,O)                             (O,O)
+  (   ) Yohann CV    -    Changelog (   )
+---"-"-------------------------------"-"---
+
+v1.5 :
+- Adding the changelog
+- Creating the [Study & Internship] section
+- Improving the responsive

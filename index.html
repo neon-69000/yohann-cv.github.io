@@ -19,16 +19,6 @@
   <meta name="msapplication-TileColor" content="#da532c">
   <meta name="msapplication-config" content="resources/favicon/browserconfig.xml">
   <meta name="theme-color" content="#ffffff">
-
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-QT1GPJTH2F"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-
-    gtag('config', 'G-QT1GPJTH2F');
-  </script>
 </head>
 
 
@@ -61,6 +51,7 @@
     <section class="section-features js--section-features">
       <div class="row">
         <h3>About me</h3>
+        <span title="I am hovering over the text">This is the text I want to have a mousover</span>
         <p class="long-copy"> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
       </div>
       <div class="row">
@@ -224,8 +215,44 @@
       </div>
       <div class="row">
         <p class="footertext">
-          Copyright &copy; 2021 by Yohann C. No rights reserved.<br>v1.5  [<a href="https://yohann-cv.me/ChangeLog.txt" target="_blank">ChangeLog</a>]
+          Copyright &copy; 2021 by Yohann C. No rights reserved.<br>v1.5  [<button class="button" data-modal="modalOne">Changelog</button>]
         </p>
+
+
+        <div id="modalOne" class="modal">
+          <div class="modal-content">
+            <div class="contact-form">
+              <a class="close">&times;</a>
+              <form action="/">
+                <pre>  ^ ^                               ^ ^<br>  (O,O)                             (O,O)<br>  (   ) Yohann CV    -    Changelog (   )<br>----"-"-------------------------------"-"---<br><br>v1.5 :<br>- Adding the changelog<br>- Creating the [Study & Internship] section<br>- Improving the responsive<br><br>v1.6 :<br>- Changing the changelog to a popup<br></pre>
+              </form>
+            </div>
+          </div>
+        </div>
+        <script>
+          let modalBtns = [...document.querySelectorAll(".button")];
+          modalBtns.forEach(function(btn) {
+            btn.onclick = function() {
+              let modal = btn.getAttribute('data-modal');
+              document.getElementById(modal)
+                      .style.display = "block";
+            }
+          });
+          let closeBtns = [...document.querySelectorAll(".close")];
+          closeBtns.forEach(function(btn) {
+            btn.onclick = function() {
+              let modal = btn.closest('.modal');
+              modal.style.display = "none";
+            }
+          });
+          window.onclick = function(event) {
+            if(event.target.className === "modal") {
+              event.target.style.display = "none";
+            }
+          }
+        </script>
+
+
       </div>
     </footer> <!-- Footer -->
 

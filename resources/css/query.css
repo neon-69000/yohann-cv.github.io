@@ -1,6 +1,6 @@
 
 /* Big Tablets to 1200px*/
-@media only screen and (max-width: 1277px) {
+@media only screen and (max-width: 1070px) {
 
 }
 
@@ -27,14 +27,16 @@
 .section-features i {
   margin-top: 0;
 }
-.social-list{
-  padding-top: 10px;
-  padding-right: 44%;
-  }
 
 
 }
 
+@media only screen and (max-width: 800px) {
+  .modal-content {
+    margin: 10% auto;
+    width: auto;
+  }
+}
 /* Small Phones from 0 to 480px*/
 @media only screen and (max-width: 340px) {
   .btn:link,

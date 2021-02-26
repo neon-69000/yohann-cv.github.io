@@ -126,7 +126,7 @@ html {
    ========================================================================== */
 
 header{
-  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(https://i.imgur.com/K8XQoRV.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(https://i.imgur.com/CRj0gt9.jpg);
   background-size: cover;
   background-position: center;
   height: 100vh;
@@ -494,7 +494,7 @@ h4 {    /* About Me Boxes Title*/
 /* -----------------------------------------------------------------------*/
 
 .section-skills {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(https://i.imgur.com/D5v5DRz.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(https://i.imgur.com/R2T2Srx.jpg);
   background-size: cover;
   background-attachment: fixed;
 }
@@ -545,7 +545,7 @@ h4 {    /* About Me Boxes Title*/
 /* --------------------------------- Footer ------------------------------*/
 /* -----------------------------------------------------------------------*/
 footer{
-  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(https://i.imgur.com/hbC1RAM.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(https://i.imgur.com/hA6Afl2.jpg);
   background-size: cover;
   background-position: bottom;
   padding: 30px;

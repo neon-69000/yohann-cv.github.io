@@ -34,10 +34,16 @@ html {
 
 
 
+.externalink{
+  color: #cccccc;
+  text-decoration: none;
+  border-bottom: 2px solid #b05d14;"
+}
 
-
-
-
+.externalink:hover,
+.externalink:active{
+  border-bottom: 3px solid #cf6d17;
+}
 
 
 
@@ -462,7 +468,7 @@ h4 {    /* About Me Boxes Title*/
   content: '';
   position: absolute;
   width: 6px;
-  background-color: #686868;
+  background-color: #2d2d2d;
   top: 0;
   bottom: 0;
   left: 50%;
@@ -484,19 +490,19 @@ h4 {    /* About Me Boxes Title*/
   width: 25px;
   height: 25px;
   right: -17px;
-  background-color: #0c0c0c;
+  background-color: #2d2d2d;
   border: 4px solid #FF9F55;
   top: 15px;
   border-radius: 50%;
   z-index: 1;
 }
 
-/* Place the container to the left */
+
 .left {
   left: 0;
 }
 
-/* Place the container to the right */
+
 .right {
   left: 50%;
 }
@@ -512,10 +518,10 @@ h4 {    /* About Me Boxes Title*/
   right: 30px;
   border: medium solid;
   border-width: 10px 0 10px 10px;
-  border-color: transparent transparent transparent #0c0c0c;
+  border-color: transparent transparent transparent #2d2d2d;
 }
 
-/* Add arrows to the right container (pointing left) */
+
 .right::before {
   content: " ";
   height: 0;
@@ -524,12 +530,11 @@ h4 {    /* About Me Boxes Title*/
   width: 0;
   z-index: 1;
   left: 30px;
-  border: medium solid #0c0c0c;
+  border: medium solid #2d2d2d;
   border-width: 10px 10px 10px 0;
-  border-color: transparent #0c0c0c transparent transparent;
+  border-color: transparent #2d2d2d transparent transparent;
 }
 
-/* Fix the circle for containers on the right side */
 .right::after {
   left: -16px;
 }
@@ -537,9 +542,9 @@ h4 {    /* About Me Boxes Title*/
 /* The actual content */
 .content {
   padding: 20px 30px;
-  background-color: #0c0c0c;
+  background-color: #2d2d2d;
   position: relative;
-  border-radius: 6px;
+  border-radius: 15px;
 }
 
 /* Media queries - Responsive timeline on screens less than 600px wide */

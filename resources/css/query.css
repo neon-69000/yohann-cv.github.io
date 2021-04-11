@@ -1,5 +1,10 @@
+@media only screen and (max-width: 1080px){
+  .navbar{
+    visibility: hidden;
+  }
+}
 
-/* Big Tablets to 1200px*/
+  /* Big Tablets to 1200px*/
 @media screen and (max-width: 767px) {
   .navbar a:not(:first-child) {display: none;}
   .navbar a.icon {
@@ -62,6 +67,10 @@
 .section-skills h4{
   text-align: center;
 }
+.social-list {
+  align-content: center;
+}
+
 }
 
 @media only screen and (max-width: 800px) {

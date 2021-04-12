@@ -438,14 +438,36 @@ h4 {    /* About Me Boxes Title*/
   line-height: 1.3;
 }
 
+.downloadbtn{
+  text-align: center;
+}
+
+.btn-download:link,
+.btn-download:visited {
+  border: 1px solid #cb134e;
+  color: #cb134e;
+  font-weight: bold;
 
 
+}
+.btn-download:hover,
+.btn-download:active {
+  color: #cccccc;
+  background-color: #cb134e;
+}
 
 
+.btn-download:hover::after {
+  content: "           Download            ";
+}
 
+.btn-download::after {
+  content: "📄 CHAVANEL Yohann - Resume.pdf";
+}
 
-
-
+.downloadbtn{
+  margin-top: 20px;
+}
 
 
 
